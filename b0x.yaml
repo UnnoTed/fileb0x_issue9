@@ -1,0 +1,21 @@
+pkg: static
+dest: "./static/"
+fmt: true
+
+compression:
+  compress: false
+  method: ""
+  keep: false
+
+clean: true
+output: "ab0x.go"
+unexporTed: false
+spread: true
+debug: false
+
+custom:
+  - files:
+    - "public/js"
+    - "public/css"
+
+    base: "public/"
